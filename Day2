@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--)
+	{
+	    int x,y,z,total;
+	    cin>>x>>y>>z;
+	    total = x*5 + y*10;
+	    cout<<total/z<<endl;
+	}
+	return 0;
+}
